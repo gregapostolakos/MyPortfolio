@@ -1,0 +1,221 @@
+.main-wrapper {
+    display:grid;
+    grid-template-columns: 10% 80% 10%;
+    height:calc(90vh);
+}
+
+
+/***MAIN COLUMN 1***/
+
+.columnmain1{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+.columnmain1-wrapper{
+    display:grid;
+    height:40vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#socialicons {
+   width:30px;
+   height:30px;
+   display:block;
+   fill:#fff;
+}
+
+/***MAIN COLUMN 3***/
+
+.columnmain3{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.columnmain3-wrapper{
+    display:grid;
+    height:30vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#arrowback , #arrowforwords {
+    fill:#fff;
+    width:40px;
+    height:40px;
+}
+
+.arrowback-wrapper , .arrowforwords-wrapper  {
+    border:1px solid white;
+    padding:30px;
+    border-radius:150px;
+}
+
+.arrowback-wrapper:hover , .arrowforwords-wrapper:hover{
+    background-color:#52ab98;
+}
+
+#next-text p{
+    text-align: center;
+    color:#fff;
+}
+
+/***MAIN COLUMN 2***/
+
+
+.columnmain2-wrapper{
+    height:90vh;
+}
+
+.tabs {
+    transform:translateX(200%);
+}
+
+/***MAIN COLUMN 2 ---HOME--- ***/
+
+#home {
+    display:grid;
+    grid-template-columns: 50% 50%;
+    height:90vh;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width:80%;
+    transform:translateX(0%);
+    transition: 1s;
+}
+
+.homecolumn1{
+    height:40vh;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.homecolumn2{
+    height:75vh;
+    background-color:#bfbfbf;
+}
+
+.pagenumber01 p{
+    font-size: 40px;
+    color:#bfbfbf;
+
+}
+
+.Autotext {
+    height:100px;
+    border-bottom:3px solid white;
+}
+
+.Autotext p{
+    font-size: 45px;
+    color:#fff;
+}
+
+.paragraph01 p {
+    color:#fff;
+    line-height: 25px;
+}
+
+.typed-cursor{
+    display:none;
+}
+
+
+/***MAIN COLUMN 2 ---ABOUT--- ***/
+
+#about {
+    height:90vh;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width:80%;
+}
+
+.about-wrapper{
+    font-size:100px;
+}
+
+/***MAIN COLUMN 2 ---EXPERIENCE--- ***/
+
+#experience {
+    height:90vh;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width:80%;
+}
+
+.experience-wrapper{
+    font-size:100px;
+}
+
+/***MAIN COLUMN 2 ---EDUCATION--- ***/
+
+#education {
+    height:90vh;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width:80%;
+
+}
+
+.education-wrapper{
+    font-size:100px;
+}
+
+/***MAIN COLUMN 2 ---SKILLS--- ***/
+
+#skills {
+    height:90vh;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width:80%;
+
+}
+
+.skills-wrapper{
+    font-size:100px;
+}
+
+/***MAIN COLUMN 2 ---PORTFOLIO--- ***/
+
+#portfolio {
+    height:90vh;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width:80%;
+
+}
+
+.portfolio-wrapper{
+    font-size:100px;
+}
+
+/***MAIN COLUMN 2 ---COVER LETTER--- ***/
+
+#cover {
+    height:90vh;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width:80%;
+
+}
+
+.cover-wrapper{
+    font-size:100px;
+}

@@ -1,0 +1,179 @@
+/************** HEADER START *************/
+
+header {
+    width:100%;
+    color:#000 !important;
+    background-color:#fff;
+}
+
+.hwrapper {
+    display:grid;
+    height:calc(10vh);
+    grid-template-columns: 22% 56% 22%;
+}
+
+/***** HEADER COLUMNS START ******/
+
+/******* COLUMN 1 START *******/
+
+.columnheader1 {
+    display:flex;
+    grid-template-columns: 25% 75%;
+    justify-content: flex-start;
+    align-items: center;
+    height:10vh;
+}
+
+
+.myname {
+    font-size: 20px;
+    padding-bottom:5px;
+    text-align: center;
+}
+
+.mytitle {
+    text-align: center;
+}
+
+.myphoto {
+    height:9vh;
+    width:auto;
+}
+
+/******* COLUMN 1 END *******/
+
+/******* COLUMN 2 START ******/
+
+.columnheader2 {
+    text-align: center;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    height:10vh;
+}
+
+
+
+header nav {
+    padding:0;
+}
+
+.columnheader2 a {
+    text-decoration: none;
+}
+
+.columnheader2-wrapper button {
+    margin:0px 10px;
+    list-style:none;
+    display:inline-block;
+    position:relative;
+    background:none;
+    border:0;
+    padding: 10px 0;
+
+}
+
+
+button a:before {
+    content: "";
+    position:absolute;
+    background-color: #52ab98;
+    height:1px;
+    width:0;
+    left:0;
+    bottom:0;
+    transition:0.5s;
+}
+
+button a:hover:before {
+    width:100%
+}
+
+button a:after {
+    content: "";
+    position:absolute;
+    background-color: #52ab98;
+    height:1px;
+    width:0;
+    right:0;
+    top:0;
+    transition:0.5s;
+}
+button a:hover:after{
+    width:100%
+}
+
+.columnheader2 button a:is(:link, :active, :visited).active {
+    color:#52ab98;
+
+}
+.columnheader2 button a:is(:link, :active, :visited).active:after {
+    height:0px;
+}
+.columnheader2 button a:is(:link, :active, :visited).active:before {
+    height:0px;
+}
+
+
+
+
+/******* COLUMN 2 END ******/
+
+/******* COLUMN 3 START ******/
+
+
+
+.columnheader3-wrapper{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    height:10vh;
+    margin-right: 5px;
+}
+
+.arrow-wrapper{
+    fill:#ffffff;
+    border:1px solid white;
+    border-radius:100px;
+    padding:5px;
+    display:inline-block;
+    background-color:#52ab98;
+}
+
+.arrow-wrapper:hover{
+    background-color:#2f4f4f;
+}
+
+.arrow-wrapper:link{
+    text-decoration: none;
+}
+
+.arrow {
+    width:10px;
+    height:10px;
+}
+
+.CV {
+    margin-right:10px;
+    margin-left:10px;
+}
+
+.contact-button {
+    margin-left:10px;
+    padding:10px 20px;
+    border-radius:50px;
+    border:1px solid white;
+    background-color:#52ab98;
+    color:white;
+    cursor: pointer;
+}
+
+.contact-button:hover{
+    background-color:#2f4f4f;
+}
+
+/******* COLUMN 3 START ******/
+
+/***** HEADER COLUMNS END ******/
+
+/************** HEADER END *************/

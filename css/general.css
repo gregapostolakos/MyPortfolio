@@ -1,0 +1,25 @@
+* , *:after, *:before{
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color:#000;
+    letter-spacing: 0.1rem;
+    overflow: hidden;
+    font-size:1rem;
+    }
+    
+    body {
+        height:calc(100vh);
+        width:calc(100vw);
+        background-color: #2b6777;
+        overflow: hidden;
+    }    
+
+    ::selection{
+        background-color: #000;
+        color:#2b6777;
+    }
+
+    #btn-home a{
+        color:#52ab98;
+    }
